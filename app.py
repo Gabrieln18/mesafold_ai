@@ -147,7 +147,7 @@ class ChatbotUI:
                 if st.button("Apagar dados", type="primary"):
                     manager_dir = DirectoryManager("documentos")
                     manager_dir.dir_erase()
-                    st.success("Banco de dados de conhencimento foi reiniciado.")
+                    st.success("Banco de dados de conhecimento foi reiniciado.")
             
             st.divider()            
             
