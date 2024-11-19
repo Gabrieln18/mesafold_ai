@@ -54,21 +54,32 @@ Certifique-se de que os seguintes softwares estão instalados no seu sistema:
    pip install -r requirements.txt
    ```
 
+## Como usar
+
+Para executar o projeto, siga os passos abaixo:
+
+1. **Abra o terminal**:
+   Certifique-se de que o terminal da sua máquina está aberto.
+
+2. **Navegue até o diretório do projeto**:
+   Use o comando `cd` para acessar a pasta onde o projeto foi clonado. Por exemplo:
+
+   ```bash
+   cd caminho/para/o/diretorio-do-projeto
+   ```
+
+   Execute o projeto com o Streamlit: Utilize o comando abaixo para iniciar o projeto:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+   Acesse a aplicação: Após executar o comando, o Streamlit abrirá automaticamente o navegador com o endereço da aplicação. Caso não abra, copie o link exibido no terminal (geralmente http://localhost:8501) e cole no navegador.
+
 # Requisitos
 
 - Python 3.10+
 
-# Dependências
+# Nota
 
-- langchain>=0.3.4
-- langchain-core>=0.3.13
-- langchain-groq>=0.2.0
-- langchain-openai>=0.2.3
-- langchain-google-genai>=2.0.1
-- langchain-anthropic>=0.2.3
-- langchain-community>=0.3.3
-- streamlit>=1.39.0
-- chromadb>=0.5.15
-- faiss-cpu>=1.9.0
-- pypdf==5.1.0
-- jq==1.8.0
+Este projeto é apenas uma demonstração básica e poderosa de como a tecnologia de IA ou LLMs pode ser implementada com eficiência em um ambiente corporativo para auxiliar colaborades com tomada de decisões baseadas em fatos, documentos e outros dados.
